@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/src/styles/syles.css" />
+    <title>Home - Faculdade</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light cor_menu">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0 lista_menu">
+            <li class="nav-item active">
+              <a class="nav-link link_menu" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link_menu" href="/src/pages/faculdade.html">AFaculdade</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link_menu" href="/src/pages/graduacao.html">Graduação</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link_menu" href="/src/pages/mba.html">MBA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link_menu" href="/src/pages/curta_duracao.html">Cursos de Curta Duração</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link_menu" href="/src/pages/contato.html">Contato</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Buscar"
+            />
+            <button
+              class="btn btn-outline-success my-2 my-sm-0 btn_pesquisar"
+              type="submit"
+            >
+              Procurar
+            </button>
+          </form>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container carrosel">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselExampleIndicators"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/src/assets/carrousel_1.jpg" class="d-block" />
+            </div>
+            <div class="carousel-item">
+              <img src="/src/assets/carrousel_2.jpg" class="d-block" />
+            </div>
+            <div class="carousel-item">
+              <img src="/src/assets/carrousel_3.jpg" class="d-block" />
+            </div>
+            <div class="carousel-item">
+              <img src="/src/assets/carrousel_4.jpg" class="d-block" />
+            </div>
+            <div class="carousel-item">
+              <img src="/src/assets/carrousel_5.jpg" class="d-block" />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-target="#carouselExampleIndicators"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-target="#carouselExampleIndicators"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </button>
+        </div>
+        <div class="ajuste">
+          <h3 class="title">
+            Confira agora alguns cursos disponíveis em nosso site:
+          </h3>
+        </div>
+        <div class="row grupo_1">
+          <div class="col">
+            <div class="card" style="width: 18rem">
+              <div class="card-body">
+                <div class="ajuste">
+                  <h5 class="card-title">Direito</h5>
+                </div>
+                <p class="card-text">Modalidade: Bacharelado</p>
+                <p class="card-text">Duração: 5 anos</p>
+                <div class="ajuste">
+                  <a href="/src/pages/graduacao.html" class="card-link cor_link"
+                    >Conferir agora</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem">
+              <div class="card-body">
+                <div class="ajuste">
+                  <h5 class="card-title">Relações Internacionais</h5>
+                </div>
+                <p class="card-text">Modalidade: Bacharelado</p>
+                <p class="card-text">Duração: 4 anos</p>
+                <div class="ajuste">
+                  <a href="/src/pages/graduacao.html" class="card-link cor_link"
+                    >Conferir agora</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem">
+              <div class="card-body">
+                <div class="ajuste">
+                  <h5 class="card-title">Nutrição</h5>
+                </div>
+                <p class="card-text">Modalidade: Bacharelado</p>
+                <p class="card-text">Duração: 4 anos e meio</p>
+                <div class="ajuste">
+                  <a href="/src/pages/graduacao.html" class="card-link cor_link"
+                    >Conferir agora</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row grupo_1">
+          <div class="col">
+            <div class="card" style="width: 18rem">
+              <div class="card-body">
+                <div class="ajuste">
+                  <h5 class="card-title">Sistemas de Informação</h5>
+                </div>
+                <p class="card-text">Modalidade: Bacharelado</p>
+                <p class="card-text">Duração: 4 anos</p>
+                <div class="ajuste">
+                  <a href="/src/pages/graduacao.html" class="card-link cor_link"
+                    >Conferir agora</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem">
+              <div class="card-body">
+                <div class="ajuste">
+                  <h5 class="card-title">Letras​</h5>
+                </div>
+                <p class="card-text">Modalidade: Licenciatura</p>
+                <p class="card-text">Duração: 4 anos</p>
+                <div class="ajuste">
+                  <a href="/src/pages/graduacao.html" class="card-link cor_link"
+                    >Conferir agora</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem">
+              <div class="card-body">
+                <div class="ajuste">
+                  <h5 class="card-title">Psicologia</h5>
+                </div>
+                <p class="card-text">Modalidade: Bacharelado</p>
+                <p class="card-text">Duração: 5 anos</p>
+                <div class="ajuste">
+                  <a href="/src/pages/graduacao.html" class="card-link cor_link"
+                    >Conferir agora</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+      <div class="ajuste">
+        <h3 class="title">
+          Venha nos visitar ou nos contate através dos canais abaixo:
+        </h3>
+      </div>
+      <div class="ajuste">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118199.60701308757!2d-54.94323360212924!3d-22.21207171727597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9489adc69f6ecbc1%3A0xf3c3551e18ac1893!2sUniversidade%20Federal%20da%20Grande%20Dourados!5e0!3m2!1spt-BR!2sbr!4v1669601178453!5m2!1spt-BR!2sbr" width="500" height="375" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="ajuste">
+        <div>
+          <a
+          class="icons space_map"
+          href="https://www.facebook.com/ufgdoficial/"
+          target="_blank"
+          ><img src="/src/assets/facebook_icon.png"
+        /></a>
+        <a
+          class="icons icon_space"
+          href="https://www.instagram.com/ufgdoficial/"
+          target="_blank"
+          ><img src="/src/assets/instagram_icon.png"
+        /></a>
+        <a class="icons" href="https://twitter.com/ufgdoficial?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"
+          ><img src="/src/assets/twitter_icon.png"
+        /></a>
+        </div>
+      </div>
+    </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+.linha_1{
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+.linha_2{
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+.nome_curso{
+  font-weight: bold;
+  padding-bottom: 5px;
+}

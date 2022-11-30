@@ -1,0 +1,13 @@
+.alignLeft{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-top: 15px;
+}
+.subtitle{
+  font-weight: bold;
+  color: rgb(96, 122, 69);
+}
+.text, li{
+  color: rgb(96, 122, 69);
+}
